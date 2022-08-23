@@ -1,0 +1,21 @@
+.content {
+  margin: 12rem;
+}
+
+.cards {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.cards__list {
+  flex-shrink: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 282px);
+  grid-row-gap: 20px;
+  grid-column-gap: 17px;
+  width: 100%;
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  justify-content: center;
+}

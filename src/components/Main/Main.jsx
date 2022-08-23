@@ -1,10 +1,10 @@
 import React from "react";
-
 import Card from "../Card/Card";
+import "./Main.css";
 
 function Main({ cards /*, onCardClick*/ }) {
   return (
-    <main className="page__content content">
+    <main className="content">
       <section className="cards">
         <ul className="cards__list">
           {cards.map((card) => (
