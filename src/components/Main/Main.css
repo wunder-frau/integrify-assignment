@@ -4,14 +4,14 @@
 
 .cards {
   margin: 0 auto;
-  width: 100%;
+  max-width: 1024px;
 }
 
 .cards__list {
   flex-shrink: 0;
   display: grid;
   grid-template-columns: repeat(auto-fit, 282px);
-  grid-row-gap: 20px;
+  grid-row-gap: 30px;
   grid-column-gap: 17px;
   width: 100%;
   list-style: none;

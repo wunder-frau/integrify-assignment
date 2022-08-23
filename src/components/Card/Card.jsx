@@ -11,8 +11,15 @@ function Card({ card /*, onCardClick*/ }) {
           .at(0)}
       </div>
       <h2 className="card__title">{card.name}</h2>
-      <h2 className="card__title">@{card.username}</h2>
-      <h2 className="card__title">{card.email}</h2>
+      <h2 className="card__title_username">{"@" + card.username}</h2>
+      <a
+        href={"https://" + card.website}
+        className="card__website"
+        rel="noreferrer"
+        target="_blank"
+      >
+        <div>{card.website}</div>
+      </a>
       <button
         type="button"
         className="card__button"
