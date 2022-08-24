@@ -1,5 +1,6 @@
 import React from "react";
 import "./Card.css";
+import Button from "../Button/Button";
 
 function Card({ card /*, onCardClick*/ }) {
   return (
@@ -20,13 +21,7 @@ function Card({ card /*, onCardClick*/ }) {
       >
         <div>{card.website}</div>
       </a>
-      <button
-        type="button"
-        className="card__button"
-        // onClick={handleLikeClick}
-      >
-        {"MORE DETAILS"}
-      </button>
+      <Button />
     </li>
   );
 }

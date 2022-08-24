@@ -33,22 +33,6 @@
   color: yellow;
 }
 
-.card__button {
-  margin: 30px;
-  background: #8fadf9;
-  color: white;
-  border-radius: 12px;
-  border: none;
-  width: 130px;
-  height: 30px;
-}
-
-.card__button:hover {
-  transform: scale(1.1);
-  box-shadow: plum 2px 2px 5px;
-  color: yellow;
-}
-
 .card__initial {
   display: flex;
   justify-content: center;
