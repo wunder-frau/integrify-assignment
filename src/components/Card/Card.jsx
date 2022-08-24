@@ -2,7 +2,7 @@ import React from "react";
 import "./Card.css";
 import Button from "../Button/Button";
 
-function Card({ card /*, onCardClick*/ }) {
+function Card({ card }) {
   return (
     <li className="card">
       <div className="card__initial">
@@ -21,7 +21,7 @@ function Card({ card /*, onCardClick*/ }) {
       >
         <div>{card.website}</div>
       </a>
-      <Button />
+      <Button card={card} />
     </li>
   );
 }

@@ -1,15 +1,13 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 import "./Button.css";
 
-function Button({ onButtonClick }) {
+function Button({ card }) {
   return (
-    <button
-      type="button"
-      className="button"
-      // onClick={handleLikeClick}
-    >
+    <Link type="button" className="button" to={`/users/${card.id}`}>
       {"MORE DETAILS"}
-    </button>
+    </Link>
   );
 }
 
