@@ -1,18 +1,14 @@
 import React from "react";
-
 import Card from "../Card/Card";
+import "./Main.css";
 
-function Main({ cards /*, onCardClick*/ }) {
+function Main({ cards }) {
   return (
-    <main className="page__content content">
+    <main className="content">
       <section className="cards">
         <ul className="cards__list">
           {cards.map((card) => (
-            <Card
-              key={card.id}
-              card={card}
-              // onCardClick={onCardClick}
-            />
+            <Card key={card.id} card={card} />
           ))}
         </ul>
       </section>

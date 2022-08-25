@@ -1,0 +1,22 @@
+.content {
+  padding: 12rem;
+  background-image: linear-gradient(45deg, #7175da, #9790f2);
+}
+
+.cards {
+  margin: 0 auto;
+  max-width: 1024px;
+}
+
+.cards__list {
+  flex-shrink: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 282px);
+  grid-row-gap: 30px;
+  grid-column-gap: 17px;
+  width: 100%;
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  justify-content: center;
+}
