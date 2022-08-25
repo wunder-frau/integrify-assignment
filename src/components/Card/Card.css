@@ -1,5 +1,6 @@
 .card {
   max-width: 364px;
+  min-width: 230px;
   list-style: none;
   border-radius: 10px;
   background-color: #ffe1f6;
@@ -17,9 +18,9 @@
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 900;
-  font-size: 25px;
+  font-size: 22px;
   color: rgb(215, 126, 215);
-  margin: 40px 20px 5px;
+  margin: 30px 7px 5px;
 }
 
 .card__title_username {
@@ -29,7 +30,7 @@
   font-size: 17px;
   font-style: italic;
   color: #d3b5e5;
-  margin: 5px auto 40px;
+  /* margin: 5px auto 40px; */
 }
 
 .card__website {
