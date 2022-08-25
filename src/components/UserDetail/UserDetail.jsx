@@ -55,7 +55,7 @@ function UserDetail({ cards }) {
             </p>
           </li>
           <li>
-            <p className="detail__card_item ">
+            <p className="detail__card_item">
               website:
               <span className="detail__card_item_span">{user.website}</span>
             </p>
