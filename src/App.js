@@ -17,10 +17,6 @@ function App() {
       .catch((err) => console.log(err));
   }, []);
 
-  console.log(cards); //TODO: Delete this.
-
-  //TODO: Когда путь меняется на "/" - очистить sessionStorage.data
-
   return (
     <Router>
       <Route exact path="/">

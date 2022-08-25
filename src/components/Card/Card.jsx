@@ -15,11 +15,11 @@ function Card({ card }) {
       <h2 className="card__title_username">{"@" + card.username}</h2>
       <a
         href={"https://" + card.website}
-        className="card__website"
+        className="card__website_link"
         rel="noreferrer"
         target="_blank"
       >
-        <div>{card.website}</div>
+        <div className="card__website">{card.website}</div>
       </a>
       <Button card={card} />
     </li>
